@@ -46,7 +46,7 @@ public class ZuulLoggingFilter extends ZuulFilter{
 	 * 2) After the request (return "post")
 	 * 3) Only for error (return "error")*/
 	public String filterType() {
-		return null;
+		return "pre";
 	}
 
 }
